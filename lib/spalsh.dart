@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:connectus/eventoED.dart';
+import 'package:connectus/service/telas-ED/eventoED.dart';
 import 'package:connectus/tela1.dart';
 import 'package:flutter/material.dart';
 import 'package:connectus/main.dart';

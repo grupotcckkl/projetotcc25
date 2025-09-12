@@ -1,3 +1,4 @@
+import 'package:connectus/service/telas-ED/eventoED.dart';
 import 'package:connectus/spalsh.dart';
 import 'package:connectus/tela2.dart';
 import 'package:flutter/material.dart';
@@ -64,7 +65,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: 'Iceberg',
       ),
-      home: Splash(),
+      home: EventED(),
     );
   }
 }

@@ -1,5 +1,4 @@
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'package:crypto/crypto.dart';
 class AuthService{
   final SupabaseClient _supabase = Supabase.instance.client;
 

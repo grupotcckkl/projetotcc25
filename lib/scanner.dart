@@ -1,4 +1,4 @@
-import 'package:connectus/telaCO.dart';
+import 'package:connectus/tela2.dart';
 import 'package:flutter/material.dart';
 import 'package:page_transition/page_transition.dart';
 
@@ -47,7 +47,7 @@ class _ScannerState extends State<Scanner> {
               Navigator.pop(
                 context,
                 PageTransition(
-                  child: TelaCO(),
+                  child: Tela2(),
                   type: PageTransitionType.fade,
                   duration: Duration(milliseconds: 550),
                 ),

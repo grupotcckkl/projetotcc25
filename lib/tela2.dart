@@ -1,6 +1,7 @@
-import 'package:connectus/Login-Inst-ED.dart';
 import 'package:connectus/cadastro.dart';
 import 'package:connectus/service/auth_gate.dart';
+import 'package:connectus/service/telas-CO/loginCO.dart';
+import 'package:connectus/service/telas-ED/loginED.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:page_transition/page_transition.dart';
@@ -99,7 +100,7 @@ class Tela2 extends StatelessWidget {
                       Navigator.push(
                         context,
                         PageTransition(
-                          child: LogininstED(),
+                          child: LoginED(),
                           type: PageTransitionType.fade,
                           duration: Duration(milliseconds: 550),
                         ),

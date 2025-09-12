@@ -1,9 +1,7 @@
-import 'package:connectus/service/eventoCO.dart';
-import 'package:connectus/service/testsupa.dart';
+import 'package:connectus/service/telas-CO/eventoCO.dart';
+import 'package:connectus/service/telas-CO/loginCO.dart';
 import 'package:flutter/material.dart';
-import 'package:supabase_flutter/supabase_flutter.dart';
 import 'emp_login_service.dart';
-import 'Login-Inst-CO.dart';
 
 class Authgate extends StatefulWidget {
   @override
@@ -43,7 +41,7 @@ class _AuthgateState extends State<Authgate> {
     if (_authService.isLoggedIn()) {
       return EventCO();
     } else {
-      return Loginteste();
+      return LoginCO();
     }
   }
 }
