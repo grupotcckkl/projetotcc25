@@ -1,4 +1,5 @@
 import 'package:connectus/service/telas-ED/eventoED.dart';
+import 'package:connectus/service/telas-ED/info-eventoED.dart';
 import 'package:connectus/spalsh.dart';
 import 'package:connectus/tela2.dart';
 import 'package:flutter/material.dart';
@@ -27,7 +28,6 @@ class AppAssets {
     'images/logobrconnectus.svg',
     height: 100, //double.infinity,
     width: 100, //double.infinity,
-
   );
   static final Widget logo = Image.asset(
     'images/logo.png',
@@ -45,16 +45,14 @@ class AppAssets {
     height: 250,
     alignment: Alignment.bottomCenter,
     fit: BoxFit.cover,
-                 );
+  );
   static final Widget logobifrostbr = SvgPicture.asset(
     'images/logobifrostbr.svg',
     height: 240,
     alignment: Alignment.bottomCenter,
     fit: BoxFit.cover,
   );
-
 }
-
 
 class MyApp extends StatelessWidget {
   @override

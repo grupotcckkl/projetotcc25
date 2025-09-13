@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
 
-
 class InfoEV extends StatefulWidget {
   @override
   State<InfoEV> createState() => _InfoEVState();
@@ -12,7 +11,7 @@ class InfoEV extends StatefulWidget {
 
 class _InfoEVState extends State<InfoEV> {
   String ticket = "";
-  List<String> leituras =[];
+  List<String> leituras = [];
   readQrcode() async {
     String code = await FlutterBarcodeScanner.scanBarcode(
       "#FF779EA9",
@@ -20,7 +19,7 @@ class _InfoEVState extends State<InfoEV> {
       true,
       ScanMode.QR,
     );
-    if (code != '-1'){
+    if (code != '-1') {
       setState(() {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text("Registro enviado para o Relatório")),
@@ -28,16 +27,13 @@ class _InfoEVState extends State<InfoEV> {
         ticket = code;
         leituras.add(code);
       });
-    }
-    else{
-      setState(()
-         => ticket = "QR code não cadastrado"
-      );
+    } else {
+      setState(() => ticket = "QR code não cadastrado");
     }
     // setState(() => ticket * code != '-1' code : 'Não validado' );
   }
-final controller = TextEditingController();
 
+  final controller = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -56,17 +52,12 @@ final controller = TextEditingController();
       child: Scaffold(
         backgroundColor: Colors.transparent,
         appBar: AppBar(
-          backgroundColor: Color(0xFF779EA9),
+          backgroundColor: Colors.transparent,
           iconTheme: IconThemeData(color: Colors.white),
           centerTitle: true,
-          title: Row(
-            mainAxisAlignment: MainAxisAlignment.end,
-            children: [
-              Image.asset(
-                'images/logo.png',
-                height: 75,
-              ),
-            ],
+          title: Image.asset(
+            'images/logo.png',
+            height: 75,
           ),
           leading: IconButton(
             icon: Icon(Icons.arrow_back),
@@ -82,10 +73,7 @@ final controller = TextEditingController();
             },
           ),
         ),
-        body:
-        SingleChildScrollView(
-
-
+        body: SingleChildScrollView(
           child: Column(
             children: [
               SizedBox(
@@ -112,14 +100,14 @@ final controller = TextEditingController();
                     ),
                   ),
 
-
-  //   Padding(padding:const EdgeInsets.fromLTRB(40,0,40,0),
-  //                  child: MobileScanner(
-  //                    onDetect: (capture) {},
-  //                  )
-  // ),
-                  SizedBox(height: 15,),
-
+                  //   Padding(padding:const EdgeInsets.fromLTRB(40,0,40,0),
+                  //                  child: MobileScanner(
+                  //                    onDetect: (capture) {},
+                  //                  )
+                  // ),
+                  SizedBox(
+                    height: 15,
+                  ),
 
                   Padding(
                     padding: const EdgeInsets.fromLTRB(15, 0, 15, 0),
@@ -127,8 +115,7 @@ final controller = TextEditingController();
                       color: Color(0xFF779EA9),
                       elevation: 4,
                       shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(10)
-                      ),
+                          borderRadius: BorderRadius.circular(10)),
                       child: Padding(
                         padding: const EdgeInsets.all(20),
                         child: Column(
@@ -136,49 +123,58 @@ final controller = TextEditingController();
                             Row(
                               mainAxisAlignment: MainAxisAlignment.start,
                               children: [
-                                Text('Descrição: ',  style: TextStyle(
-                                  color: Colors.white,
-                                    fontSize: 30,)),
+                                Text('Descrição: ',
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 30,
+                                    )),
                               ],
                             ),
                             Padding(
                               padding: const EdgeInsets.fromLTRB(15, 5, 15, 0),
                               child: Container(
-                                  decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.all(Radius.circular(10)),
-                                    color: Colors.white,
-                                    // boxShadow: [
-                                    //   BoxShadow(
-                                    //     color: Colors.black.withOpacity(0.2),
-                                    //     spreadRadius: 2,
-                                    //     blurRadius: 8,
-                                    //     offset: Offset(0, 4), // deslocamento da sombra
-                                    //   ),
-                                    // ],
+                                decoration: BoxDecoration(
+                                  borderRadius:
+                                      BorderRadius.all(Radius.circular(10)),
+                                  color: Colors.white,
+                                  // boxShadow: [
+                                  //   BoxShadow(
+                                  //     color: Colors.black.withOpacity(0.2),
+                                  //     spreadRadius: 2,
+                                  //     blurRadius: 8,
+                                  //     offset: Offset(0, 4), // deslocamento da sombra
+                                  //   ),
+                                  // ],
+                                ),
+                                child: Padding(
+                                  padding: const EdgeInsets.all(10),
+                                  child: Text(
+                                    'Passeio no zoológico dia 20 de março.',
+                                    style: TextStyle(fontSize: 20),
                                   ),
-                                  child: Padding(
-                                    padding: const EdgeInsets.all(10),
-                                    child: Text('Passeio no zoológico dia 20 de março.', style: TextStyle(fontSize: 20),),
-                                  ),
+                                ),
                                 height: 100,
                                 width: 250,
                               ),
                             ),
-                            SizedBox(height: 10,),
+                            SizedBox(
+                              height: 10,
+                            ),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.start,
                               children: [
                                 ElevatedButton.icon(
                                   style: ElevatedButton.styleFrom(
-                                      backgroundColor: Color(0xFF779EA9)
-                                  ),
+                                      backgroundColor: Color(0xFF779EA9)),
                                   label: Text('Scannear',
                                       style: TextStyle(color: Colors.white)),
                                   icon: Icon(Icons.qr_code_scanner,
-                                  color: Colors.white),
+                                      color: Colors.white),
                                   onPressed: readQrcode,
                                 ),
-                                SizedBox(width: 5,),
+                                SizedBox(
+                                  width: 5,
+                                ),
                               ],
                             ),
                           ],
@@ -186,7 +182,9 @@ final controller = TextEditingController();
                       ),
                     ),
                   ),
-                  SizedBox(height: 8,),
+                  SizedBox(
+                    height: 8,
+                  ),
 
                   // if (ticket != '')
                   //   Padding(
@@ -197,41 +195,41 @@ final controller = TextEditingController();
                   //           color: Colors.white),),
                   //   ),
 
-                  SizedBox(height: 10,),
+                  SizedBox(
+                    height: 10,
+                  ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       ElevatedButton.icon(
-                        style: ElevatedButton.styleFrom(
-                            backgroundColor: Color(0xFF779EA9)
-                        ),
-                        label: Text('Relatório',
-                            style: TextStyle(color: Colors.white, fontSize: 30)),
-                        icon: Icon(Icons.edit_document,
-                            color: Colors.white),
-                        onPressed: (){
-                          Navigator.push(
-                            context,
-                            PageTransition(
-                              child: RelatorioED(leituras: leituras,),
-                              type: PageTransitionType.fade,
-                              duration: Duration(milliseconds: 550),
-                            ),
-                          );
-                        }
-                      ),
+                          style: ElevatedButton.styleFrom(
+                              backgroundColor: Color(0xFF779EA9)),
+                          label: Text('Relatório',
+                              style:
+                                  TextStyle(color: Colors.white, fontSize: 30)),
+                          icon: Icon(Icons.edit_document, color: Colors.white),
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              PageTransition(
+                                child: RelatorioED(
+                                  leituras: leituras,
+                                ),
+                                type: PageTransitionType.fade,
+                                duration: Duration(milliseconds: 550),
+                              ),
+                            );
+                          }),
                       SizedBox(width: 10),
                       ElevatedButton.icon(
                         style: ElevatedButton.styleFrom(
-                            backgroundColor: Color(0xFF779EA9)
-                        ),
+                            backgroundColor: Color(0xFF779EA9)),
                         label: Text('Editar',
-                            style: TextStyle(color: Colors.white, fontSize: 30)),
-                        icon: Icon(Icons.edit,
-                            color: Colors.white),
+                            style:
+                                TextStyle(color: Colors.white, fontSize: 30)),
+                        icon: Icon(Icons.edit, color: Colors.white),
                         onPressed: readQrcode,
                       ),
-
                     ],
                   ),
                   // ListView.builder(
@@ -244,8 +242,6 @@ final controller = TextEditingController();
                   //     );
                   //   },
                   // ),
-
-
 
                   // Padding(
                   //   padding: const EdgeInsets.fromLTRB(40,0,40,0),
@@ -270,8 +266,6 @@ final controller = TextEditingController();
                   //   ),
                   // ),
 
-
-
                   // ElevatedButton(
                   //   child: Text('text',
                   //   style: TextStyle(color: Color(0xFF39A2C8))),
@@ -282,22 +276,15 @@ final controller = TextEditingController();
                   // },  )
                   // Container(child: AppAssets.montanha),
                 ],
-
               ),
               // Container(child: AppAssets.montanha),
             ],
           ),
         ),
-
       ),
-
     );
   }
   //email: teste@ senha: 123456
 }
-
-
-
-
 
 //Container( color: Colors.white, height: 100, width: 100, ),
