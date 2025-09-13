@@ -1,5 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:connectus/service/emp_login_service.dart';
+import 'package:connectus/service/telas-ED/criar-eventoED.dart';
 import 'package:connectus/service/telas-ED/info-eventoED.dart';
 import 'package:flutter/material.dart';
 import 'package:connectus/tela2.dart';
@@ -9,6 +10,7 @@ class EventED extends StatefulWidget {
   @override
   State<EventED> createState() => _EventEDState();
 }
+
 class _EventEDState extends State<EventED> {
   final AuthService _authService = AuthService();
   String? nomeEmp;
@@ -41,12 +43,13 @@ class _EventEDState extends State<EventED> {
   ];
 
   int _contaitens = 0;
-@override
-void initState(){
-  super.initState();
-  _loadEmpresaData();
-}
-Future<void> _loadEmpresaData() async {}
+  @override
+  void initState() {
+    super.initState();
+    _loadEmpresaData();
+  }
+
+  Future<void> _loadEmpresaData() async {}
 
   void addNewContainer() {
     setState(() {
@@ -66,9 +69,11 @@ Future<void> _loadEmpresaData() async {}
           child: Container(
             height: 200,
             width: 250,
-            child: Center(child: Text('Evento Númeoro $_contaitens',
-              style: TextStyle(
-                  color: Colors.white),)),
+            child: Center(
+                child: Text(
+              'Evento Númeoro $_contaitens',
+              style: TextStyle(color: Colors.white),
+            )),
             decoration: BoxDecoration(
               color: Colors.white.withOpacity(0.2),
               borderRadius: BorderRadius.circular(20),
@@ -160,7 +165,6 @@ Future<void> _loadEmpresaData() async {}
                               ),
                             ),
                           ),
-
                         ),
                       ),
                     ],
@@ -184,7 +188,6 @@ Future<void> _loadEmpresaData() async {}
                               ),
                             ),
                           ),
-
                         ),
                       ),
                     ],
@@ -250,7 +253,16 @@ Future<void> _loadEmpresaData() async {}
                     height: 0,
                   ),
                   ElevatedButton(
-                    onPressed: addNewContainer,
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        PageTransition(
+                          child: CriareventED(),
+                          type: PageTransitionType.fade,
+                          duration: Duration(milliseconds: 550),
+                        ),
+                      );
+                    },
                     child: Text('+',
                         style: TextStyle(
                             fontFamily: 'Iceberg',
