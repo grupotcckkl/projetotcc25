@@ -215,7 +215,7 @@ class _LoginED extends State<LoginED> {
                 ),
               ),
 
-              SizedBox(height: 30),
+              SizedBox(height: 20),
 
               // Botão de Login
               SizedBox(
@@ -224,7 +224,7 @@ class _LoginED extends State<LoginED> {
                 child: ElevatedButton(
                   onPressed: _isLoading ? null : login,
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.white,
+                    backgroundColor: Color(0xFFF6FDFF),
                     foregroundColor: Color(0xFF191E41),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(12),
@@ -240,7 +240,6 @@ class _LoginED extends State<LoginED> {
                     style: TextStyle(
                       color: Color(0xFF39A2C8),
                       fontSize: 18,
-                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),

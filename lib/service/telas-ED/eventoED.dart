@@ -254,13 +254,10 @@ class _EventEDState extends State<EventED> {
                   ),
                   ElevatedButton(
                     onPressed: () {
-                      Navigator.push(
-                        context,
-                        PageTransition(
-                          child: CriareventED(),
-                          type: PageTransitionType.fade,
-                          duration: Duration(milliseconds: 550),
-                        ),
+                      showDialog(
+                        context: context, builder: (BuildContext context) {
+                        return CriareventED();
+                      }
                       );
                     },
                     child: Text('+',

@@ -222,7 +222,7 @@ class _LoginCO extends State<LoginCO> {
                 child: ElevatedButton(
                   onPressed: _isLoading ? null : login,
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.white,
+                    backgroundColor: Color(0xFFF4F2FD),
                     foregroundColor: Color(0xFF191E41),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(12),
