@@ -18,28 +18,6 @@ class _EventEDState extends State<EventED> {
 
   final List<Widget> _carrosselItens = [
 //o contador ta pronto mas vou ter que mudar isso pro
-// botão levar na tela de cadastro do evento e depois um botão lá adicionar um evento como nome bonitinho
-    /* InkWell(
-      onTap: () {
-        Navigator.push(
-          context,
-          PageTransition(
-            child: EventCO(),
-            type: PageTransitionType.fade,
-            duration: Duration(milliseconds: 550),
-          ),
-        );
-      },
-      child: Container(
-        height: 200,
-        width: 250,
-        child: Center(child: Text('Evento Númeoro 0')),
-        decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.circular(20),
-        ),
-      ),
-    ),*/
   ];
 
   int _contaitens = 0;
@@ -49,7 +27,9 @@ class _EventEDState extends State<EventED> {
     _loadEmpresaData();
   }
 
-  Future<void> _loadEmpresaData() async {}
+  Future<void> _loadEmpresaData() async {
+
+  }
 
   void addNewContainer() {
     setState(() {
@@ -205,59 +185,16 @@ class _EventEDState extends State<EventED> {
                     ),
                     items: _carrosselItens,
                   ),
-                  /*  Container(
-                    height: 150,
-                    width: 150,
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(20),
-                    ),
-                  ), */
 
-                  //aqui no meio vai ficar o formulario
-                  /* 
-                  PopupMenuButton<String>(
-                    itemBuilder: (context) => [
-                      PopupMenuItem(
-                        value: 'opcao1',
-                        child: Text('Opção 1'),
-                      ),
-                      PopupMenuItem(
-                        value: 'opcao2',
-                        child: Text('Opção 2'),
-                      ),
-                      PopupMenuItem(
-                        value: 'opcao3',
-                        child: Text('Opção 3'),
-                      ),
-                    ],
-                    onSelected: (value) {
-                      print('Opção selecionada: $value');
-                      // Adicione a ação para cada opção aqui
-                    },
-                    child: Container(
-                      padding: EdgeInsets.all(12),
-                      decoration: BoxDecoration(
-                        color: Colors.blue,
-                        borderRadius: BorderRadius.circular(8),
-                      ),
-                      child: Text(
-                        'Clique para menu',
-                        style: TextStyle(color: Colors.white),
-                      ),
-                    ),
-                  ),
-                ],
-              ), */
-                  SizedBox(
-                    height: 0,
-                  ),
                   ElevatedButton(
                     onPressed: () {
-                      showDialog(
-                        context: context, builder: (BuildContext context) {
-                        return CriareventED();
-                      }
+                      Navigator.push(
+                        context,
+                        PageTransition(
+                          child: CriareventED(),
+                          type: PageTransitionType.fade,
+                          duration: Duration(milliseconds: 550),
+                        ),
                       );
                     },
                     child: Text('+',
@@ -267,12 +204,6 @@ class _EventEDState extends State<EventED> {
                             color: Colors.white)),
                     style: ElevatedButton.styleFrom(
                       shape: CircleBorder(),
-                      /* 
-                  decoration: BoxDecoration(shape: BoxShape.circle),
-                    shape: RoundedRectangleBorder(
-                    borderRadius:
-                        BorderRadius.circular(50), // Set the radius here
-                  ), */
                       backgroundColor: Color(0xFF779EA9),
                       padding:
                           EdgeInsets.symmetric(horizontal: 25, vertical: 30),

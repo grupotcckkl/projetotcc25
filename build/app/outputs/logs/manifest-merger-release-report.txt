@@ -1,0 +1,369 @@
+-- Merging decision tree log ---
+application
+INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:4:5-34:19
+MERGED from [:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:15:5-19:19
+MERGED from [:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:15:5-19:19
+MERGED from [:url_launcher_android] D:\TCC\builds com git\vs 17-09\projetotcc25\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] D:\TCC\builds com git\vs 17-09\projetotcc25\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-14:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0a041416a0e78488878a66da3c5eb63d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0a041416a0e78488878a66da3c5eb63d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\8914596834c10777f22a55cd4279d07e\transformed\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\8914596834c10777f22a55cd4279d07e\transformed\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\fa56c8f74f5ead7c1a4a30f761203145\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\fa56c8f74f5ead7c1a4a30f761203145\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\e66397649138fe4fe63df4a7ebbd71dd\transformed\jetified-play-services-vision-20.1.3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\e66397649138fe4fe63df4a7ebbd71dd\transformed\jetified-play-services-vision-20.1.3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\320901cdf1b7d4e3b50df32fbfffb15b\transformed\jetified-play-services-vision-common-19.1.3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\320901cdf1b7d4e3b50df32fbfffb15b\transformed\jetified-play-services-vision-common-19.1.3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\d848cc7c6fb09a54a9c516af6ba1859a\transformed\jetified-play-services-clearcut-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\d848cc7c6fb09a54a9c516af6ba1859a\transformed\jetified-play-services-clearcut-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\04adaed1ba16116a97ba65028e28a6cd\transformed\jetified-play-services-phenotype-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\04adaed1ba16116a97ba65028e28a6cd\transformed\jetified-play-services-phenotype-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a904827d072dd28bdbfc31feac079612\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a904827d072dd28bdbfc31feac079612\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\e0ca8e69a9713ca2bcbe54992deddd55\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\e0ca8e69a9713ca2bcbe54992deddd55\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\b24bcf895dcd468cd5c5757b24642733\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\b24bcf895dcd468cd5c5757b24642733\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a465f5531c46ae68db90a5001be09526\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a465f5531c46ae68db90a5001be09526\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:5:9-34
+	android:largeHeap
+		ADDED from [:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-33
+	android:icon
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from [:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:17:9-59
+	android:name
+		INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:6:9-42
+manifest
+ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:1:1-35:12
+MERGED from [:shared_preferences_android] D:\TCC\builds com git\vs 17-09\projetotcc25\build\shared_preferences_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:app_links] D:\TCC\builds com git\vs 17-09\projetotcc25\build\app_links\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-21:12
+MERGED from [:flutter_plugin_android_lifecycle] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:url_launcher_android] D:\TCC\builds com git\vs 17-09\projetotcc25\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-16:12
+MERGED from [:path_provider_android] D:\TCC\builds com git\vs 17-09\projetotcc25\build\path_provider_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\1352d4a15179417cc61b8a6d3400159d\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0a041416a0e78488878a66da3c5eb63d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\85a06a2b32eed38a0f534cdafc16982c\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.5.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\5602401b841ac739c8f3abdeca0859c1\transformed\browser-1.5.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\8914596834c10777f22a55cd4279d07e\transformed\material-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\fa56c8f74f5ead7c1a4a30f761203145\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\f4664c6df3649e09c081c2d957662556\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\5fe494081d9c54917ab47027fd1bfbb4\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\238100d1fc27664f848b0d190864f826\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\e66397649138fe4fe63df4a7ebbd71dd\transformed\jetified-play-services-vision-20.1.3\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\320901cdf1b7d4e3b50df32fbfffb15b\transformed\jetified-play-services-vision-common-19.1.3\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\d848cc7c6fb09a54a9c516af6ba1859a\transformed\jetified-play-services-clearcut-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\77744eb8ceeb297c3ff1c18767a683a2\transformed\jetified-play-services-flags-17.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\04adaed1ba16116a97ba65028e28a6cd\transformed\jetified-play-services-phenotype-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a904827d072dd28bdbfc31feac079612\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\e0ca8e69a9713ca2bcbe54992deddd55\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\b24bcf895dcd468cd5c5757b24642733\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\153fb379decf0d9d9852a611ea245dcb\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\67eee5498f940dade3413557be0bc1c1\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\eb0fc05523462da1b940240267ad5c2f\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\9641e1c01653bede1b079c8865aa3180\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a3c377f7fd75f4f0e1ef6f643573ee41\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\783756295abfe32fc81ace6152d74cc6\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0f015aa9ba9da30f6d5809947143a2a4\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\37508a6283a2804e8fdb0233483cb3df\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\792736344157843b7a6f2b7049c18a00\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\bc382a847a9cc23b3bd9e6a097b25312\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\409fcead700f24c003b79d35c14782f7\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\85cc871dcbe79b729764b22669b2e60a\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\2c2c3dc86d3689f05c7ed5aee88e25c6\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a5f7823548a21927835e8bd497e294f6\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\8533430545e96523e52ab71c9b6f94b0\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\2506377ff6be6e1cd1b35a14bfc657ee\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\f20d574927d5ee6cbcb733537212e53c\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\21ad1aebf18027b9d30e44bf445579f1\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\9d648d9795e979faa8cc3c69aace5edd\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\c5fbdbdaa88ce8eec000665d8f87d366\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\bf983f1fde9b2a096e7a97fbcc44c49b\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\6562af4f5dcd92ec11404583b61cec5e\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a465f5531c46ae68db90a5001be09526\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\4b0adcff0c6b122618d27bf015c2e873\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\c1d538792870b080ae77148add1991f6\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\d225a2b7ac6ec4dfff2bcbeabbb34b64\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\07c84209acf6ded21783b958497d5024\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\6600e18dff7c68aad7af0fa48f1c057b\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\7aedb24843a259c0aa22e66c59318f90\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\04b069a03dce0038983eedb92bb56fe2\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\f2a6723338be26cb9034277a25cd5f29\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\3159dccdd90839b19dbc02e92f14e842\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\e3553b0736b92101e2cc3148c51e40ce\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [org.microg:safe-parcel:1.7.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\ce35c43341a2153fd5eeefb4c6d9386b\transformed\jetified-safe-parcel-1.7.0\AndroidManifest.xml:6:1-14:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\ec0bce34c92f2b20199a887635ce05fd\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:1:1-35:12
+	package
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:2:2-33
+		INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:1:1-35:12
+		INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:1:1-35:12
+		INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:3:5-66
+	android:name
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:3:22-64
+uses-sdk
+INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml
+MERGED from [:shared_preferences_android] D:\TCC\builds com git\vs 17-09\projetotcc25\build\shared_preferences_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] D:\TCC\builds com git\vs 17-09\projetotcc25\build\shared_preferences_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:app_links] D:\TCC\builds com git\vs 17-09\projetotcc25\build\app_links\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:app_links] D:\TCC\builds com git\vs 17-09\projetotcc25\build\app_links\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] D:\TCC\builds com git\vs 17-09\projetotcc25\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] D:\TCC\builds com git\vs 17-09\projetotcc25\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] D:\TCC\builds com git\vs 17-09\projetotcc25\build\path_provider_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] D:\TCC\builds com git\vs 17-09\projetotcc25\build\path_provider_android\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\1352d4a15179417cc61b8a6d3400159d\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\1352d4a15179417cc61b8a6d3400159d\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0a041416a0e78488878a66da3c5eb63d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0a041416a0e78488878a66da3c5eb63d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\85a06a2b32eed38a0f534cdafc16982c\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\85a06a2b32eed38a0f534cdafc16982c\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.browser:browser:1.5.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\5602401b841ac739c8f3abdeca0859c1\transformed\browser-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.5.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\5602401b841ac739c8f3abdeca0859c1\transformed\browser-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\8914596834c10777f22a55cd4279d07e\transformed\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\8914596834c10777f22a55cd4279d07e\transformed\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\fa56c8f74f5ead7c1a4a30f761203145\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\fa56c8f74f5ead7c1a4a30f761203145\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\f4664c6df3649e09c081c2d957662556\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\f4664c6df3649e09c081c2d957662556\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\5fe494081d9c54917ab47027fd1bfbb4\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\5fe494081d9c54917ab47027fd1bfbb4\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\238100d1fc27664f848b0d190864f826\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\238100d1fc27664f848b0d190864f826\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\e66397649138fe4fe63df4a7ebbd71dd\transformed\jetified-play-services-vision-20.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\e66397649138fe4fe63df4a7ebbd71dd\transformed\jetified-play-services-vision-20.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\320901cdf1b7d4e3b50df32fbfffb15b\transformed\jetified-play-services-vision-common-19.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\320901cdf1b7d4e3b50df32fbfffb15b\transformed\jetified-play-services-vision-common-19.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\d848cc7c6fb09a54a9c516af6ba1859a\transformed\jetified-play-services-clearcut-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\d848cc7c6fb09a54a9c516af6ba1859a\transformed\jetified-play-services-clearcut-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\77744eb8ceeb297c3ff1c18767a683a2\transformed\jetified-play-services-flags-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\77744eb8ceeb297c3ff1c18767a683a2\transformed\jetified-play-services-flags-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\04adaed1ba16116a97ba65028e28a6cd\transformed\jetified-play-services-phenotype-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\04adaed1ba16116a97ba65028e28a6cd\transformed\jetified-play-services-phenotype-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a904827d072dd28bdbfc31feac079612\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a904827d072dd28bdbfc31feac079612\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\e0ca8e69a9713ca2bcbe54992deddd55\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\e0ca8e69a9713ca2bcbe54992deddd55\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\b24bcf895dcd468cd5c5757b24642733\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\b24bcf895dcd468cd5c5757b24642733\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\153fb379decf0d9d9852a611ea245dcb\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\153fb379decf0d9d9852a611ea245dcb\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\67eee5498f940dade3413557be0bc1c1\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\67eee5498f940dade3413557be0bc1c1\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\eb0fc05523462da1b940240267ad5c2f\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\eb0fc05523462da1b940240267ad5c2f\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\9641e1c01653bede1b079c8865aa3180\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\9641e1c01653bede1b079c8865aa3180\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a3c377f7fd75f4f0e1ef6f643573ee41\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a3c377f7fd75f4f0e1ef6f643573ee41\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\783756295abfe32fc81ace6152d74cc6\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\783756295abfe32fc81ace6152d74cc6\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0f015aa9ba9da30f6d5809947143a2a4\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0f015aa9ba9da30f6d5809947143a2a4\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\37508a6283a2804e8fdb0233483cb3df\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\37508a6283a2804e8fdb0233483cb3df\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\792736344157843b7a6f2b7049c18a00\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\792736344157843b7a6f2b7049c18a00\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\bc382a847a9cc23b3bd9e6a097b25312\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\bc382a847a9cc23b3bd9e6a097b25312\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\409fcead700f24c003b79d35c14782f7\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\409fcead700f24c003b79d35c14782f7\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\85cc871dcbe79b729764b22669b2e60a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\85cc871dcbe79b729764b22669b2e60a\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\2c2c3dc86d3689f05c7ed5aee88e25c6\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\2c2c3dc86d3689f05c7ed5aee88e25c6\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a5f7823548a21927835e8bd497e294f6\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a5f7823548a21927835e8bd497e294f6\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\8533430545e96523e52ab71c9b6f94b0\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\8533430545e96523e52ab71c9b6f94b0\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\2506377ff6be6e1cd1b35a14bfc657ee\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\2506377ff6be6e1cd1b35a14bfc657ee\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\f20d574927d5ee6cbcb733537212e53c\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\f20d574927d5ee6cbcb733537212e53c\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\21ad1aebf18027b9d30e44bf445579f1\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\21ad1aebf18027b9d30e44bf445579f1\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\9d648d9795e979faa8cc3c69aace5edd\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\9d648d9795e979faa8cc3c69aace5edd\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\c5fbdbdaa88ce8eec000665d8f87d366\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\c5fbdbdaa88ce8eec000665d8f87d366\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\bf983f1fde9b2a096e7a97fbcc44c49b\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\bf983f1fde9b2a096e7a97fbcc44c49b\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\6562af4f5dcd92ec11404583b61cec5e\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\6562af4f5dcd92ec11404583b61cec5e\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a465f5531c46ae68db90a5001be09526\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a465f5531c46ae68db90a5001be09526\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\4b0adcff0c6b122618d27bf015c2e873\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\4b0adcff0c6b122618d27bf015c2e873\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\c1d538792870b080ae77148add1991f6\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\c1d538792870b080ae77148add1991f6\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\d225a2b7ac6ec4dfff2bcbeabbb34b64\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\d225a2b7ac6ec4dfff2bcbeabbb34b64\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\07c84209acf6ded21783b958497d5024\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\07c84209acf6ded21783b958497d5024\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\6600e18dff7c68aad7af0fa48f1c057b\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\6600e18dff7c68aad7af0fa48f1c057b\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\7aedb24843a259c0aa22e66c59318f90\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\7aedb24843a259c0aa22e66c59318f90\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\04b069a03dce0038983eedb92bb56fe2\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\04b069a03dce0038983eedb92bb56fe2\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\f2a6723338be26cb9034277a25cd5f29\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\f2a6723338be26cb9034277a25cd5f29\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\3159dccdd90839b19dbc02e92f14e842\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\3159dccdd90839b19dbc02e92f14e842\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\e3553b0736b92101e2cc3148c51e40ce\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\e3553b0736b92101e2cc3148c51e40ce\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [org.microg:safe-parcel:1.7.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\ce35c43341a2153fd5eeefb4c6d9386b\transformed\jetified-safe-parcel-1.7.0\AndroidManifest.xml:10:5-12:41
+MERGED from [org.microg:safe-parcel:1.7.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\ce35c43341a2153fd5eeefb4c6d9386b\transformed\jetified-safe-parcel-1.7.0\AndroidManifest.xml:10:5-12:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\ec0bce34c92f2b20199a887635ce05fd\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\ec0bce34c92f2b20199a887635ce05fd\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml
+activity#com.example.helloworld.MainActivity
+ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:8:9-28:20
+	android:launchMode
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:11:13-43
+	android:hardwareAccelerated
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:14:13-47
+	android:windowSoftInputMode
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:15:13-55
+	android:exported
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:10:13-36
+	android:configChanges
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:13:13-163
+	android:theme
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:12:13-47
+	android:name
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:9:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:20:13-23:17
+	android:resource
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:22:15-52
+	android:name
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:21:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:25:17-68
+	android:name
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:26:17-76
+	android:name
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:26:27-74
+meta-data#flutterEmbedding
+ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:31:9-33:33
+	android:value
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:33:13-30
+	android:name
+		ADDED from D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:32:13-44
+uses-permission#android.permission.CAMERA
+ADDED from [:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from [:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-62
+uses-feature#android.hardware.camera
+ADDED from [:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-60
+	android:name
+		ADDED from [:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:11:19-57
+uses-permission#android.permission.FLASHLIGHT
+ADDED from [:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-69
+	android:name
+		ADDED from [:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:13:22-66
+activity#com.amolg.flutterbarcodescanner.BarcodeCaptureActivity
+ADDED from [:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-91
+	android:name
+		ADDED from [:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:18:19-88
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] D:\TCC\builds com git\vs 17-09\projetotcc25\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+	android:exported
+		ADDED from [:url_launcher_android] D:\TCC\builds com git\vs 17-09\projetotcc25\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [:url_launcher_android] D:\TCC\builds com git\vs 17-09\projetotcc25\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+	android:name
+		ADDED from [:url_launcher_android] D:\TCC\builds com git\vs 17-09\projetotcc25\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0a041416a0e78488878a66da3c5eb63d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0a041416a0e78488878a66da3c5eb63d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0a041416a0e78488878a66da3c5eb63d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0a041416a0e78488878a66da3c5eb63d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0a041416a0e78488878a66da3c5eb63d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0a041416a0e78488878a66da3c5eb63d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a904827d072dd28bdbfc31feac079612\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a904827d072dd28bdbfc31feac079612\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a904827d072dd28bdbfc31feac079612\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a904827d072dd28bdbfc31feac079612\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\b24bcf895dcd468cd5c5757b24642733\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\b24bcf895dcd468cd5c5757b24642733\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\b24bcf895dcd468cd5c5757b24642733\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+permission#com.example.connectus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+uses-permission#com.example.connectus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:26:22-94

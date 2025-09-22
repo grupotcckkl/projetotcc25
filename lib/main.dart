@@ -1,3 +1,5 @@
+import 'package:connectus/service/telas-CO/eventoCO.dart';
+import 'package:connectus/service/telas-ED/criar-eventoED.dart';
 import 'package:connectus/service/telas-ED/eventoED.dart';
 import 'package:connectus/service/telas-ED/info-eventoED.dart';
 import 'package:connectus/service/telas-ED/loginED.dart';
@@ -64,7 +66,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: 'Iceberg',
       ),
-      home: LoginED(),
+      home: Splash(),
     );
   }
 }

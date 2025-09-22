@@ -1,0 +1,25 @@
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-jetified-window-1.0.0-beta04-0 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0a041416a0e78488878a66da3c5eb63d\transformed\jetified-window-1.0.0-beta04\res
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-jetified-window-java-1.0.0-beta04-1 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\1352d4a15179417cc61b8a6d3400159d\transformed\jetified-window-java-1.0.0-beta04\res
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-jetified-viewpager2-1.0.0-2 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\238100d1fc27664f848b0d190864f826\transformed\jetified-viewpager2-1.0.0\res
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-recyclerview-1.1.0-3 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\2506377ff6be6e1cd1b35a14bfc657ee\transformed\recyclerview-1.1.0\res
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-coordinatorlayout-1.1.0-4 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\37508a6283a2804e8fdb0233483cb3df\transformed\coordinatorlayout-1.1.0\res
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-jetified-appcompat-resources-1.2.0-5 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\67eee5498f940dade3413557be0bc1c1\transformed\jetified-appcompat-resources-1.2.0\res
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-transition-1.2.0-6 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\792736344157843b7a6f2b7049c18a00\transformed\transition-1.2.0\res
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-material-1.3.0-7 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\8914596834c10777f22a55cd4279d07e\transformed\material-1.3.0\res
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-jetified-annotation-experimental-1.1.0-8 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\982bdd6432e38a7bd8b938ebba283fab\transformed\jetified-annotation-experimental-1.1.0\res
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-media-1.0.0-9 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a3c377f7fd75f4f0e1ef6f643573ee41\transformed\media-1.0.0\res
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-jetified-play-services-base-17.4.0-10 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a904827d072dd28bdbfc31feac079612\transformed\jetified-play-services-base-17.4.0\res
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-jetified-play-services-basement-17.4.0-11 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\b24bcf895dcd468cd5c5757b24642733\transformed\jetified-play-services-basement-17.4.0\res
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-cardview-1.0.0-12 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\c1d538792870b080ae77148add1991f6\transformed\cardview-1.0.0\res
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-core-1.6.0-13 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\cd87185a1edbf5941925816c6cec8c74\transformed\core-1.6.0\res
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-appcompat-1.2.0-14 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\f4664c6df3649e09c081c2d957662556\transformed\appcompat-1.2.0\res
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-constraintlayout-2.0.1-15 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\fa56c8f74f5ead7c1a4a30f761203145\transformed\constraintlayout-2.0.1\res
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-main-16 C:\Users\aluno.ETECMAUA\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_barcode_scanner-2.0.0\android\src\main\res
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-release-17 C:\Users\aluno.ETECMAUA\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_barcode_scanner-2.0.0\android\src\release\res
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-pngs-18 D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\generated\res\pngs\release
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-resValues-19 D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\generated\res\resValues\release
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-rs-20 D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\generated\res\rs\release
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-mergeReleaseResources-21 D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-mergeReleaseResources-22 D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-merged_res-23 D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_res\release
+com.amolg.flutterbarcodescanner.flutter_barcode_scanner-packaged_res-24 D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\release

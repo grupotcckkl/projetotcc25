@@ -1,0 +1,146 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.connectus"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:3:5-66
+11-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->[:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-65
+12-->[:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-62
+13
+14    <uses-feature android:name="android.hardware.camera" />
+14-->[:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-60
+14-->[:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:11:19-57
+15
+16    <uses-permission android:name="android.permission.FLASHLIGHT" />
+16-->[:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-69
+16-->[:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:13:22-66
+17
+18    <permission
+18-->[androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+19        android:name="com.example.connectus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.example.connectus.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+23
+24    <application
+25        android:name="io.flutter.app.FlutterMultiDexApplication"
+25-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:6:9-42
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.10.1] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+27        android:icon="@mipmap/ic_launcher"
+27-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:7:9-43
+28        android:label="connectus"
+28-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:5:9-34
+29        android:largeHeap="true"
+29-->[:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-33
+30        android:theme="@style/Theme.AppCompat.NoActionBar" >
+30-->[:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:17:9-59
+31        <activity
+31-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:8:9-28:20
+32            android:name="com.example.helloworld.MainActivity"
+32-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:9:13-41
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:13:13-163
+34            android:exported="true"
+34-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:10:13-36
+35            android:hardwareAccelerated="true"
+35-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:14:13-47
+36            android:launchMode="singleTop"
+36-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:11:13-43
+37            android:theme="@style/LaunchTheme"
+37-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:12:13-47
+38            android:windowSoftInputMode="adjustResize" >
+38-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:15:13-55
+39
+40            <!--
+41                 Specifies an Android theme to apply to this Activity as soon as
+42                 the Android process has started. This theme is visible to the user
+43                 while the Flutter UI initializes. After that, this theme continues
+44                 to determine the Window background behind the Flutter UI.
+45            -->
+46            <meta-data
+46-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:20:13-23:17
+47                android:name="io.flutter.embedding.android.NormalTheme"
+47-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:21:15-70
+48                android:resource="@style/NormalTheme" />
+48-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:22:15-52
+49
+50            <intent-filter>
+50-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:24:13-27:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:25:17-68
+51-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:25:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:26:17-76
+53-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:26:27-74
+54            </intent-filter>
+55        </activity>
+56        <!--
+57             Don't delete the meta-data below.
+58             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+59        -->
+60        <meta-data
+60-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:31:9-33:33
+61            android:name="flutterEmbedding"
+61-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:32:13-44
+62            android:value="2" />
+62-->D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\AndroidManifest.xml:33:13-30
+63
+64        <activity android:name="com.amolg.flutterbarcodescanner.BarcodeCaptureActivity" />
+64-->[:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-91
+64-->[:flutter_barcode_scanner] D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\merged_manifest\release\AndroidManifest.xml:18:19-88
+65        <activity
+65-->[:url_launcher_android] D:\TCC\builds com git\vs 17-09\projetotcc25\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+66            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+66-->[:url_launcher_android] D:\TCC\builds com git\vs 17-09\projetotcc25\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+67            android:exported="false"
+67-->[:url_launcher_android] D:\TCC\builds com git\vs 17-09\projetotcc25\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+68            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+68-->[:url_launcher_android] D:\TCC\builds com git\vs 17-09\projetotcc25\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+69
+70        <uses-library
+70-->[androidx.window:window:1.0.0-beta04] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0a041416a0e78488878a66da3c5eb63d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+71            android:name="androidx.window.extensions"
+71-->[androidx.window:window:1.0.0-beta04] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0a041416a0e78488878a66da3c5eb63d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+72            android:required="false" />
+72-->[androidx.window:window:1.0.0-beta04] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0a041416a0e78488878a66da3c5eb63d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+73        <uses-library
+73-->[androidx.window:window:1.0.0-beta04] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0a041416a0e78488878a66da3c5eb63d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+74            android:name="androidx.window.sidecar"
+74-->[androidx.window:window:1.0.0-beta04] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0a041416a0e78488878a66da3c5eb63d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+75            android:required="false" />
+75-->[androidx.window:window:1.0.0-beta04] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0a041416a0e78488878a66da3c5eb63d\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+76
+77        <activity
+77-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a904827d072dd28bdbfc31feac079612\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+78            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+78-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a904827d072dd28bdbfc31feac079612\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+79            android:exported="false"
+79-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a904827d072dd28bdbfc31feac079612\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+80-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a904827d072dd28bdbfc31feac079612\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+81
+82        <meta-data
+82-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\b24bcf895dcd468cd5c5757b24642733\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
+83            android:name="com.google.android.gms.version"
+83-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\b24bcf895dcd468cd5c5757b24642733\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
+84            android:value="@integer/google_play_services_version" />
+84-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\b24bcf895dcd468cd5c5757b24642733\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
+85    </application>
+86
+87</manifest>

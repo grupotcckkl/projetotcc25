@@ -1,0 +1,12 @@
+io.flutter.plugins.flutter_plugin_android_lifecycle-jetified-window-1.0.0-beta04-0 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0a041416a0e78488878a66da3c5eb63d\transformed\jetified-window-1.0.0-beta04\res
+io.flutter.plugins.flutter_plugin_android_lifecycle-jetified-window-java-1.0.0-beta04-1 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\1352d4a15179417cc61b8a6d3400159d\transformed\jetified-window-java-1.0.0-beta04\res
+io.flutter.plugins.flutter_plugin_android_lifecycle-jetified-annotation-experimental-1.1.0-2 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\982bdd6432e38a7bd8b938ebba283fab\transformed\jetified-annotation-experimental-1.1.0\res
+io.flutter.plugins.flutter_plugin_android_lifecycle-core-1.6.0-3 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\cd87185a1edbf5941925816c6cec8c74\transformed\core-1.6.0\res
+io.flutter.plugins.flutter_plugin_android_lifecycle-main-4 C:\Users\aluno.ETECMAUA\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.19\android\src\main\res
+io.flutter.plugins.flutter_plugin_android_lifecycle-release-5 C:\Users\aluno.ETECMAUA\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_plugin_android_lifecycle-2.0.19\android\src\release\res
+io.flutter.plugins.flutter_plugin_android_lifecycle-pngs-6 D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_plugin_android_lifecycle\generated\res\pngs\release
+io.flutter.plugins.flutter_plugin_android_lifecycle-resValues-7 D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_plugin_android_lifecycle\generated\res\resValues\release
+io.flutter.plugins.flutter_plugin_android_lifecycle-rs-8 D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_plugin_android_lifecycle\generated\res\rs\release
+io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-9 D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_plugin_android_lifecycle\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-10 D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_plugin_android_lifecycle\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.flutter_plugin_android_lifecycle-merged_res-11 D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_plugin_android_lifecycle\intermediates\merged_res\release

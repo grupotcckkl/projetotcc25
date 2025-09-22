@@ -1,0 +1,4 @@
+#Fri Sep 19 11:54:29 BRT 2025
+base.0=D\:\\TCC\\builds com git\\vs 17-09\\projetotcc25\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

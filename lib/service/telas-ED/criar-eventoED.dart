@@ -37,7 +37,7 @@ class _CriareventEDState extends State<CriareventED> {
     String id_emp = _id_empController.text.trim();
     String  tipo_ctrl = _tipo_ctrlController.text.trim();
 
-    //vÊ se ta tudo preenchido
+    //vê se ta tudo preenchido
     if (nomeEV.isEmpty || descEV.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
@@ -64,13 +64,68 @@ class _CriareventEDState extends State<CriareventED> {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
             content: Text(
-              'Conteiner criado :D',
+              'Evento cadastrado',
             ),
             backgroundColor: Colors.green),
       );
-    }
+
+      //volta para a tela dos eventos
+      Navigator.pop(
+          context, MaterialPageRoute(builder: (context) => Tela2()));
+      //puxa os dados que foram enviados
+      try{
+        final response = await Supabase.instance.client
+            .from('evento')//tabela
+            .select('nome, descricao, tipo_ctrl')
+            .order('id_evento', ascending: false)
+            .limit(1)
+            .single;
+      }catch (erro){
+        print('deu errado: $erro');
+        setState(() {
+          _isLoading = false;
+        });
+      }
+      //cria o conteiner com os dados
+       void addNewContainer() {
+         setState(() {
+           _contaitens++;
+           _carrosselItens.add(
+             InkWell(
+               onTap: () {
+                 Navigator.push(
+                   context,
+                   PageTransition(
+                     child: InfoEV(),
+                     type: PageTransitionType.fade,
+                     duration: Duration(milliseconds: 550),
+                   ),
+                 );
+               },
+               child: Container(
+                 height: 200,
+                 width: 250,
+                 child: Center(
+                     child: Text(
+                   'Evento Númeoro $_contaitens',
+                   style: TextStyle(color: Colors.white),
+                 )),
+                 decoration: BoxDecoration(
+                   color: Colors.white.withOpacity(0.2),
+                   borderRadius: BorderRadius.circular(20),
+                 ),
+               ),
+             ),
+           );
+         });
+       }
+
+
+     }
      _nomeEVController.clear();
      _descEVController.clear();
+     _tipo_ctrlController.clear();
+     _id_empController.clear();
     } catch(erro){
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
@@ -98,40 +153,7 @@ class _CriareventEDState extends State<CriareventED> {
   }
 
   int _contaitens = 0;
-//função para adicionar o container isso vou nusar com os dados do formulairo que vou jogar no banco
 
-  // void addNewContainer() {
-  //   setState(() {
-  //     _contaitens++;
-  //     _carrosselItens.add(
-  //       InkWell(
-  //         onTap: () {
-  //           Navigator.push(
-  //             context,
-  //             PageTransition(
-  //               child: InfoEV(),
-  //               type: PageTransitionType.fade,
-  //               duration: Duration(milliseconds: 550),
-  //             ),
-  //           );
-  //         },
-  //         child: Container(
-  //           height: 200,
-  //           width: 250,
-  //           child: Center(
-  //               child: Text(
-  //             'Evento Númeoro $_contaitens',
-  //             style: TextStyle(color: Colors.white),
-  //           )),
-  //           decoration: BoxDecoration(
-  //             color: Colors.white.withOpacity(0.2),
-  //             borderRadius: BorderRadius.circular(20),
-  //           ),
-  //         ),
-  //       ),
-  //     );
-  //   });
-  // }
 
 //limpa a memoria quando fechar a tela
   @override
@@ -375,32 +397,18 @@ class _CriareventEDState extends State<CriareventED> {
                   ),
 
                   //carrol dos conteiners
-                  // CarouselSlider(
-                  //   options: CarouselOptions(
-                  //     enableInfiniteScroll: false,
-                  //     height: 200,
-                  //     viewportFraction:
-                  //         0.9, // Aumente para itens mais próximos (0.8 a 1.0)
-                  //     // padEnds: false,
-                  //   ),
-                  //   items: _carrosselItens,
-                  // ),
+                  CarouselSlider(
+                    options: CarouselOptions(
+                      enableInfiniteScroll: false,
+                      height: 200,
+                      viewportFraction:
+                          0.9, // Aumente para itens mais próximos (0.8 a 1.0)
+                      // padEnds: false,
+                    ),
+                    items: _carrosselItens,
+                  ),
 
-                  //botão que cria os conteiners
-                  // ElevatedButton(
-                  //   onPressed: null,//addNewContainer,
-                  //   child: Text('Criar',
-                  //       style: TextStyle(
-                  //           fontFamily: 'Iceberg',
-                  //           fontSize: 100,
-                  //           color: Colors.white)),
-                  //   style: ElevatedButton.styleFrom(
-                  //     shape: CircleBorder(),
-                  //     backgroundColor: Color(0xFF779EA9),
-                  //     padding:
-                  //         EdgeInsets.symmetric(horizontal: 25, vertical: 30),
-                  //   ),
-                  // ),
+                  //botão que cria os conteiners função que deve ter no botão: addNewContainer,
                 ],
               ),
             ],

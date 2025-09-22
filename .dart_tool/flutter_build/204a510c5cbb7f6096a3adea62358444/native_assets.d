@@ -1,0 +1,1 @@
+ D:\\TCC\\builds\ com\ git\\vs\ 17-09\\projetotcc25\\.dart_tool\\flutter_build\\204a510c5cbb7f6096a3adea62358444\\native_assets.yaml: 

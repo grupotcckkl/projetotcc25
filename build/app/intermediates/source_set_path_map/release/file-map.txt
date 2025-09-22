@@ -1,0 +1,32 @@
+com.example.helloworld.app-jetified-window-1.0.0-beta04-0 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\0a041416a0e78488878a66da3c5eb63d\transformed\jetified-window-1.0.0-beta04\res
+com.example.helloworld.app-jetified-window-java-1.0.0-beta04-1 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\1352d4a15179417cc61b8a6d3400159d\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.helloworld.app-jetified-viewpager2-1.0.0-2 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\238100d1fc27664f848b0d190864f826\transformed\jetified-viewpager2-1.0.0\res
+com.example.helloworld.app-recyclerview-1.1.0-3 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\2506377ff6be6e1cd1b35a14bfc657ee\transformed\recyclerview-1.1.0\res
+com.example.helloworld.app-coordinatorlayout-1.1.0-4 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\37508a6283a2804e8fdb0233483cb3df\transformed\coordinatorlayout-1.1.0\res
+com.example.helloworld.app-browser-1.5.0-5 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\5602401b841ac739c8f3abdeca0859c1\transformed\browser-1.5.0\res
+com.example.helloworld.app-core-1.10.1-6 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\60a18e36485189b583c8c9e84655c061\transformed\core-1.10.1\res
+com.example.helloworld.app-jetified-appcompat-resources-1.2.0-7 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\67eee5498f940dade3413557be0bc1c1\transformed\jetified-appcompat-resources-1.2.0\res
+com.example.helloworld.app-transition-1.2.0-8 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\792736344157843b7a6f2b7049c18a00\transformed\transition-1.2.0\res
+com.example.helloworld.app-material-1.3.0-9 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\8914596834c10777f22a55cd4279d07e\transformed\material-1.3.0\res
+com.example.helloworld.app-media-1.0.0-10 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a3c377f7fd75f4f0e1ef6f643573ee41\transformed\media-1.0.0\res
+com.example.helloworld.app-jetified-play-services-base-17.4.0-11 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\a904827d072dd28bdbfc31feac079612\transformed\jetified-play-services-base-17.4.0\res
+com.example.helloworld.app-jetified-play-services-basement-17.4.0-12 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\b24bcf895dcd468cd5c5757b24642733\transformed\jetified-play-services-basement-17.4.0\res
+com.example.helloworld.app-lifecycle-runtime-2.3.1-13 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\bf983f1fde9b2a096e7a97fbcc44c49b\transformed\lifecycle-runtime-2.3.1\res
+com.example.helloworld.app-cardview-1.0.0-14 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\c1d538792870b080ae77148add1991f6\transformed\cardview-1.0.0\res
+com.example.helloworld.app-jetified-annotation-experimental-1.3.0-15 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\ec0bce34c92f2b20199a887635ce05fd\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.helloworld.app-appcompat-1.2.0-16 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\f4664c6df3649e09c081c2d957662556\transformed\appcompat-1.2.0\res
+com.example.helloworld.app-constraintlayout-2.0.1-17 C:\Users\aluno.ETECMAUA\.gradle\caches\transforms-3\fa56c8f74f5ead7c1a4a30f761203145\transformed\constraintlayout-2.0.1\res
+com.example.helloworld.app-main-18 D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\main\res
+com.example.helloworld.app-release-19 D:\TCC\builds com git\vs 17-09\projetotcc25\android\app\src\release\res
+com.example.helloworld.app-pngs-20 D:\TCC\builds com git\vs 17-09\projetotcc25\build\app\generated\res\pngs\release
+com.example.helloworld.app-resValues-21 D:\TCC\builds com git\vs 17-09\projetotcc25\build\app\generated\res\resValues\release
+com.example.helloworld.app-rs-22 D:\TCC\builds com git\vs 17-09\projetotcc25\build\app\generated\res\rs\release
+com.example.helloworld.app-mergeReleaseResources-23 D:\TCC\builds com git\vs 17-09\projetotcc25\build\app\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.example.helloworld.app-mergeReleaseResources-24 D:\TCC\builds com git\vs 17-09\projetotcc25\build\app\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.example.helloworld.app-merged_res-25 D:\TCC\builds com git\vs 17-09\projetotcc25\build\app\intermediates\merged_res\release
+com.example.helloworld.app-packaged_res-26 D:\TCC\builds com git\vs 17-09\projetotcc25\build\app_links\intermediates\packaged_res\release
+com.example.helloworld.app-packaged_res-27 D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_barcode_scanner\intermediates\packaged_res\release
+com.example.helloworld.app-packaged_res-28 D:\TCC\builds com git\vs 17-09\projetotcc25\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\release
+com.example.helloworld.app-packaged_res-29 D:\TCC\builds com git\vs 17-09\projetotcc25\build\path_provider_android\intermediates\packaged_res\release
+com.example.helloworld.app-packaged_res-30 D:\TCC\builds com git\vs 17-09\projetotcc25\build\shared_preferences_android\intermediates\packaged_res\release
+com.example.helloworld.app-packaged_res-31 D:\TCC\builds com git\vs 17-09\projetotcc25\build\url_launcher_android\intermediates\packaged_res\release
